@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -14,8 +17,9 @@ header {
     text-align: center;
 }
 header > h1 {
-    padding-top: 50px;
+    padding-top: 25px;
     font-variant: small-caps;
+    font-size: 4vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -29,10 +33,11 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 2vw;
 }
 section.normal {
     background-color: white;
@@ -43,7 +48,8 @@ section.imagem {
     color: white;
 }
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.212);
 }
 footer {
